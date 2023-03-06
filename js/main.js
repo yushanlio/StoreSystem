@@ -317,6 +317,18 @@
 	const ka = $.post(linkgoogle,a ,function(result){
 		alert(result);    
 	
+
+		 document.getElementById("time1").value ="",
+		 document.getElementById("time2").value="",
+		 document.getElementById("time3").value="",
+		document.getElementById("time4").value="",
+		document.getElementById("time5").value="",
+		document.getElementById("num1").value  ="",
+		document.getElementById("num2").value="",
+		document.getElementById("num3").value ="",
+		document.getElementById("num4").value="" ,
+		document.getElementById("num5").value =""
+
     })
 	};
 

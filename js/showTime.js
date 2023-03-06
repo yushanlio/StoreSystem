@@ -82,10 +82,10 @@ const ka = $.get(linkgoogle,a ,function(result){
 '<div class="bgrid folio-item" style="height : 200px; ">'+
 ' <div class="item-wrap"  >'+
 
-'<div style="width:90%;">'+
+'<div style="width:90%;border-width:3px;border-style:dashed;border-color:#FFAC55;padding:5px;">'+
     
-    '<a class="button full-width" id = "btnn">'+(Time.getFullYear()+'-'+Month+'-'+Time.getDate()+"   星期"+Day)+'</a>'+
-    '<a class="button stroke full-width" id = "btcc">'+((Time.getHours().toString()).padStart(2,0)+":"+(Time.getMinutes().toString()).padStart(2,0))+'</a> '+
+    '<a class="button full-width" id = "btnn">'+(Time.getFullYear()+'-'+Month+'-'+Time.getDate())+'</a>'+
+    '<a class="button stroke full-width" id = "btcc">'+((" 星期"+Day+" "+Time.getHours().toString()).padStart(2,0)+":"+(Time.getMinutes().toString()).padStart(2,0))+'</a> '+
     '<a class="button button-primary full-width">'+'可報名人數 : '+result[i].Num+'</a>'+
     ' </div>	   '+ 
     

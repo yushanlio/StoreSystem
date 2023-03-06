@@ -120,38 +120,44 @@
  
 				<div id="title" herf = "#contact" class="button full-width" onclick="onTileClick()">可預約時間登入</div>
 	
-				<div id="content1" style="height:10px;transition: height 0.2s;">
-					<form name="contactForm" id="contactForm" method="post" action="" >
-					  <div class="question" style="text-align: center;"></div>
-						<table >
-							<tr>
-							  <th style="text-align: center;">時間</th>
-							  <th style="text-align: center;">人數</th>
-							</tr>
-							<tr>
-							  <td style="text-align: center;vertical-align: middle; "><input type="datetime-local"style="" name="bdaytime" id="time1"></td>
-							  <td style="text-align: center;"><input name="contactSubject" type="text" id="num1" placeholder="人數" value="" aria-invalid="false" class="valid"></td>
-							</tr>
-							<tr>
-								<td style="text-align: center;"><input type="datetime-local"style="" name="bdaytime"id="time2"></td>
-								<td style="text-align: center;"><input name="contactSubject" type="text" id="num2" placeholder="人數" value="" aria-invalid="false" class="valid"></td>
-							</tr>
-							<tr>
-								<td style="text-align: center;"><input type="datetime-local"style="" name="bdaytime" id="time3"></td>
-								<td style="text-align: center;"><input name="contactSubject" type="text" id="num3" placeholder="人數" value="" aria-invalid="false" class="valid"></td>
-							</tr>
-							<tr>
-								<td style="text-align: center;"><input type="datetime-local"style="" name="bdaytime" id="time4"></td>
-								<td style="text-align: center;"><input name="contactSubject" type="text" id="num4" placeholder="人數" value="" aria-invalid="false" class="valid"></td>
-							</tr>
-							<tr>
-								<td style="text-align: center;"><input type="datetime-local"style="" name="bdaytime" id="time5"></td>
-								<td style="text-align: center;"><input name="contactSubject" type="text" id="num5" placeholder="人數" value="" aria-invalid="false" class="valid"></td>
-							</tr>
-						  </table>
+				<div id="content1" style="margin: auto; width :80%; height:10px;transition: height 0.2s;text-align: center;">
+					<br>
+					<form name="contactForm" id="contactForm" method="post" action=""  style="text-align: center;">
+					  <div style="text-align: center;">
+						<div style="text-align: center;width:100%;border-width:3px;border-style:dashed;border-color:#FFAC55;padding:5px;">
+							<input type="datetime-local"style="" name="bdaytime" id="time1">
+							<input name="contactSubject" style=" margin: auto;width:80%;" type="text" id="num1" placeholder="人數" value="" aria-invalid="false" class="valid">
+						</div>
+						<br>
+						<div style="text-align: center;width:100%;border-width:3px;border-style:dashed;border-color:#FFAC55;padding:5px;">
+							<input type="datetime-local"style="" name="bdaytime" id="time2">
+							<input name="contactSubject" style=" margin: auto;width:80%;" type="text" id="num2" placeholder="人數" value="" aria-invalid="false" class="valid">
+						</div>
+						<br>
+						<div style="text-align: center;width:100%;border-width:3px;border-style:dashed;border-color:#FFAC55;padding:5px;">
+							<input type="datetime-local"style="" name="bdaytime" id="time3">
+							<input name="contactSubject" style=" margin: auto;width:80%;" type="text" id="num3" placeholder="人數" value="" aria-invalid="false" class="valid">
+						</div>
+						<br>
+						<div style="text-align: center;width:100%;border-width:3px;border-style:dashed;border-color:#FFAC55;padding:5px;">
+							<input type="datetime-local"style="" name="bdaytime" id="time4">
+							<input name="contactSubject" style=" margin: auto;width:80%;" type="text" id="num4" placeholder="人數" value="" aria-invalid="false" class="valid">
+						</div>
+						<br>
+						<div style="text-align: center;width:100%;border-width:3px;border-style:dashed;border-color:#FFAC55;padding:5px;">
+							<input type="datetime-local"style="" name="bdaytime" id="time5">
+							<input name="contactSubject" style=" margin: auto;width:80%;" type="text" id="num5" placeholder="人數" value="" aria-invalid="false" class="valid">
+						</div>
+
+					  </div>
+
+					  <br>
+
+
 						  <div style="text-align: center;">
 						  <input id="btnSub" class="button stroke full-width"style=" width : 80%;" type="button" value="Submit">
-						  </div>
+						
+							</div>
 						</div>
 					</form> <!-- Form End -->
 				</div>

@@ -551,7 +551,7 @@ textarea {
  * large mobile devices - (_grid.scss)
  * --------------------------------------------------------------- 
  */
-@media screen and (max-width:600px) {
+@media screen and (max-width:400px) {
 	.row {
 		padding-left: 25px;
 		padding-right: 25px;
@@ -736,7 +736,7 @@ textarea {
  * large mobile devices - (_grid.scss)
  * --------------------------------------------------------------- 
  */
-@media screen and (max-width:600px) {
+@media screen and (max-width:500px) {
 	.block-mob-1-6 .bgrid {
 		width: 16.66667%;
 	}
